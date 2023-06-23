@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 0.85em;
+}
+
+.red {
+    color: #ba0000 !important;
+}
+
+p, a, h1 {
+    font-family: sans-serif;
+    font-size: 0.75em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0645ad;
+}
+
+body {
+    background: white;
+}
+
+.left {
+    padding-left: 28px;
+    padding-right: 10px;
+    background-color: #f6f6f6;
+    float: left;
+    width: 135px;
+}
+
+.logo {
+    height: 135px;
+    width: 135px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/73/Wikipedia-logo-for-Ukraine.png");
+    background-size: 135px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+.links {
+    padding-top: 5px;
+}
+
+.links a {
+    color: #144fb0;
+}
+
+.linkHeader {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c9cdd2;
+}
+
+#wrapper {
+    display: flex;
+}
+
+.right {
+    background: white;
+}
+
+.right .top-menu, .enter {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.right .top-menu {
+    gap: 10px;
+    padding-top: 6px;
+    padding-right: 15px;
+    background-color: #f6f6f6;
+}
+
+.right .top-menu a {
+    font-size: 12px;
+}
+
+#person-icon {
+    color: #54595d;
+}
+
+nav {
+    background-color: #f6f6f6;
+    padding-top: 7px;
+    height: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    font-size: 18px;
+    float: left;
+    padding: 3px 6px;
+    background: rgb(233,243,249);
+    background: linear-gradient(0deg, rgba(233,243,249,1) 0%, rgba(233,243,249,0) 100%);
+    border-right: 2px solid #a7d7f9;
+}
+
+.navigation-active {
+    border-left: 2px solid #a7d7f9;
+    border-bottom: none;
+    background: white;
+}
+
+nav input {
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 20px;
+    width: 280px;
+    margin-left: 7px;
+}
+
+.navigation-right {
+    float: right;
+    display: flex;
+    align-items: end;
+}
+
+.main-body {
+    width: 100%;
+    padding-top: 40px;
+    background-color: white;
+    border-left: 2px solid #a7d7f9;
+    border-bottom: 2px solid #a7d7f9;
+}
+
+.welcome {
+    margin: 0 25px 0 25px;
+    border: 1px solid #d7d7d7;
+    border-top: none;
+    padding: 25px 28px 0 28px;
+    border-radius: 3px;
+}
+
+.welcome-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-text h1, .welcome-text h1 a{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.welcome-text h1 {
+    padding-bottom: 5px;
+}
+
+.welcome-text p, .welcome-text a {
+    font-size: 17px;
+    padding-bottom: 5px ;
+}
+
+.welcome-right {
+    text-align: right;
+}
+
+.welcome-right p, .welcome-right a {
+    font-size: 14px;
+}
+
+.welcome ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 24px 10px;
+    font-size: 19px;
+}
+
+.main {
+    display: flex;
+}
+
+.main-left, .main-right {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+.main-right {
+    margin-left: 13px;
+}
+
+.main-left {
+    margin-right: 12px;
+}
+
+.block {
+    background-color: #f6f6f6;
+    border: 1px solid #d7d7d7;
+    padding: 20px 30px;
+    margin-bottom: 22px;
+    border-radius: 4px;
+    border-top: 3px solid #3366cc;
+}
+
+.block-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+
+.block-header h1 {
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.block-header .dots {
+    height: 20px;
+    width: 20px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/OOjs_UI_icon_ellipsis.svg/40px-OOjs_UI_icon_ellipsis.svg.png");
+    background-size: 20px;
+}
+
+.block p, .block a {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.block-image {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 120px;
+}
+
+.block-image img {
+    max-height: 100%;
+    width: auto;
+}
+
+.block-text {
+    display: block;
+}
+
+.block-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.block .block-btn {
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.block .block-btn a {
+    color: black;
+}
+
+.block .block-btn a:hover {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.main-left, .main-right {
+    margin-bottom: 0;
+}
+
+#selected-image .block-image {
+    float: none;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#selected-image .block-text p {
+    text-align: center;
+}
+
+.padding-left-ul ul {
+    padding-left: 20px;
+}
+
+.photos {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titles ul {
+    list-style: none;
+}
+
+.titles ul li {
+    display: flex;
+    font-weight: bold;
+}
+
+.titles ul li p {
+    font-size: 1.1em;
+    margin-left: 7px;
+}
+
+.icon {
+    width: 30px;
+    height: 40px;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titles p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background: rgb(250,250,250);
+    background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%);
+    border: 1px solid #d7d7d7;
+    border-bottom: none;
+    margin: 0 25px 25px 25px;
+    padding: 20px 30px;
+}
+
+.footer .icon {
+    width: 50px;
+    height: 50px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer ul li a {
+    font-size: 0.9em;
+}
+
+.footer .block-header {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .block-header p {
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+.footer .block-header a {
+    font-size: 1em;
+    margin-right: 6px;
+}
+
+.footer .block-header .icon {
+    margin: 0 5px;
+    background-position: center;
+}
+
+.footer-main ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer-main ul li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.footer .block-footer {
+    justify-content: center;
+}
+
+.block-footer {
+    justify-content: space-between;
+}
+
+.block-footer p, .block-footer a {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    padding-right: 6px;
+}
+
+#feather {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Font_Awesome_5_solid_feather-alt.svg/38px-Font_Awesome_5_solid_feather-alt.svg.png");
+}
+
+#geography {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Font_Awesome_5_solid_globe.svg/37px-Font_Awesome_5_solid_globe.svg.png");
+}
+
+#history {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Font_Awesome_5_solid_hourglass-half.svg/28px-Font_Awesome_5_solid_hourglass-half.svg.png");
+}
+
+#art {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Font_Awesome_5_solid_palette.svg/38px-Font_Awesome_5_solid_palette.svg.png");
+}
+
+#science {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Font_Awesome_5_solid_bong.svg/33px-Font_Awesome_5_solid_bong.svg.png");
+}
+
+#policy {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Font_Awesome_5_solid_flag.svg/38px-Font_Awesome_5_solid_flag.svg.png");
+}
+
+#nature {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Font_Awesome_5_solid_tree.svg/28px-Font_Awesome_5_solid_tree.svg.png");
+}
+
+#sport {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Font_Awesome_5_solid_futbol.svg/38px-Font_Awesome_5_solid_futbol.svg.png");
+}
+
+#society {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Font_Awesome_5_solid_users.svg/48px-Font_Awesome_5_solid_users.svg.png");
+}
+
+#technologies {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Font_Awesome_5_solid_rocket.svg/38px-Font_Awesome_5_solid_rocket.svg.png");
+}
+
+#Ukraine {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vlad1Trezub.svg/25px-Vlad1Trezub.svg.png");
+}
+
+#philosophy {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Font_Awesome_5_solid_university.svg/38px-Font_Awesome_5_solid_university.svg.png");
+}
+
+#fond {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wikimedia-logo_black.svg/45px-Wikimedia-logo_black.svg.png");
+}
+
+/*footer*/
+
+#dictionary {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Notification-icon-Wiktionary-logo.svg/45px-Notification-icon-Wiktionary-logo.svg.png");
+}
+#textbook{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Notification-icon-Wikibooks-logo.svg/45px-Notification-icon-Wikibooks-logo.svg.png");
+}
+#news{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Notification-icon-Wikinews-logo.svg/45px-Notification-icon-Wikinews-logo.svg.png");
+}
+#species{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Notification-icon-Wikispecies-logo.svg/45px-Notification-icon-Wikispecies-logo.svg.png");
+}
+#data{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/45px-Notification-icon-Wikidata-logo.svg.png");
+}
+#wanderings{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Notification-icon-Wikivoyage-logo.svg/45px-Notification-icon-Wikivoyage-logo.svg.png");
+}
+#quotes{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikiquote.svg/45px-Notification-icon-Wikiquote.svg.png");
+}
+#sources{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikisource-logo.svg/45px-Notification-icon-Wikisource-logo.svg.png");
+}
+#university{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Notification-icon-Wikiversity-logo.svg/45px-Notification-icon-Wikiversity-logo.svg.png");
+}
+#media{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/45px-MediaWiki-2020-icon.svg.png");
+}
+#refuge{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Notification-icon-Commons-logo.svg/45px-Notification-icon-Commons-logo.svg.png");
+}
+#goal{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Notification-icon-Meta-logo.svg/45px-Notification-icon-Meta-logo.svg.png");
+}
+#fond2{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/38px-Wikimedia-logo.svg.png");
+}
+
+.bottom {
+    padding: 25px 0 18px 20px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.bottom p {
+    padding-bottom: 20px;
+}
+
+.bottom p a {
+    font-size: 1em;
+}
+
+.bottom ul {
+    list-style: none;
+    display: flex;
+}
+
+.bottom ul li {
+    margin-right: 15px;
+}
+
+.bottom .buttons #first_button {
+    background-image: url("https://uk.wikipedia.org/static/images/footer/wikimedia-button-1.5x.png");
+}
+
+.bottom .buttons #second_button {
+    background-image: url("https://uk.wikipedia.org/static/images/footer/poweredby_mediawiki_132x47.png");
+}
+
+.bottom .buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.bottom .buttons div {
+    height: 31px;
+    width: 88px;
+    background-size: 88px;
+    margin: 0 10px 0 0;
+}
